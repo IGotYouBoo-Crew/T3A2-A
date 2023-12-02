@@ -160,11 +160,10 @@ https://app.diagrams.net/#G1EV_tfMlboLjai9heVswIWWG6Jox-3GKY
 
 ### GUESTS
 
-#### Rosie Horn, she/her, 32, Stanwell Tops
-
+**Rosie Horn, she/her, 32, Stanwell Tops**
 As a potential member, I want to browse the public posts on IGYB to get a sense of the conversations and topics discussed within the community, so that I can gauge the level of inclusivity and relevance.
 
-#### Bradley James, he/him, 39, Ulladulla
+**Bradley James, he/him, 39, Ulladulla**
 
 As a professional looking for diversity and inclusion resources, I want to check out the IGYB forum without signing up, so that I can assess the quality and relevance of the content.
 
@@ -176,7 +175,7 @@ As a human wanting to learn about the origin of IGYB, I want to access the histo
 
 As a potential ally, I want to browse IGYB discussions to gain insights into the experiences and perspectives of marginalised communities without creating an account, so that I can educate myself and better understand the community dynamics.
 
-#### James McCathaway, 20, Lorne
+#### THIS ONE: James McCathaway, 20, Lorne
 
 As a curious guest, I want to explore the profiles of community members who have chosen to make certain information public, so that I can get a sense of the diverse backgrounds and experiences within the IGYB community.
 
@@ -230,10 +229,10 @@ As a member of a marginalised group, I need to customise my profile on IGYB to i
 #### Izzie Bowden, she/her, 33, Margaret River
 As an ally to marginalised communities, I need to participate in IGYB discussions to learn and understand more about the struggles and triumphs of different groups, so that I can better support and advocate for inclusivity.
 
-#### Julien Guillard, he/him, 38, Adelaide
+#### THIS ONE: Julien Guillard, he/him, 38, Adelaide
 As a quadriplegic, I need to report inappropriate posts and comments to IGYB admins, so that the community remains a safe and welcoming space for everyone.
 
-#### Cait Williams, she/her, 30, Springfield Lakes
+#### THIS ONE: Cait Williams, she/her, 30, Springfield Lakes
 As an individual on the autism spectrum, I need to browse IGYB events to find gatherings that are sensory-friendly, so that I can participate comfortably and connect with like-minded individuals.
 
 #### Ali Lowe, they/them, 37, Geelong
@@ -269,10 +268,10 @@ As a mentor with the IGYB Crew, I need the ability to create and schedule mentor
 #### Purav Hursh, he/him, 29, Woolloongabba
 As an IGYB admin, I need to review and delete inappropriate events organised by users, so that the platform maintains a positive and respectful atmosphere.
 
-#### Stella Frazer, she/her, 33, Townsville
+**Stella Frazer, she/her, 33, Townsville**
 As a member of the IGYB Crew, I need to be able to delete posts or comments that don't align with community guidelines, so that the platform maintains a positive and respectful atmosphere.
 
-#### Braden Long, he/him, 40, Broome
+**Braden Long, he/him, 40, Broome**
 As a mentor with the IGYB Crew, I need to be able to comment on posts to provide more focused guidance to specific subsets of the community, fostering deeper connections and support.
 
 <br>
@@ -289,5 +288,8 @@ https://www.figma.com/file/ygmt0g4Y5Q87a7FHad6Xll/I-Got-You%2C-Boo?type=design&n
 
 # R6: Screenshots of your Trello board throughout the duration of the project
 
-https://trello.com/b/y0rODp16/got-you-boo
+[Click here for the Trello board 🗓](https://trello.com/b/y0rODp16/got-you-boo)
 
+Initially, 
+
+![Initial Trello](<Screen Shot 2023-11-27 at 9.13.57 pm.png>)
