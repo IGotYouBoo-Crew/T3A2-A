@@ -2,7 +2,7 @@
 
 ## Helpful quick links:
 
-[GitHub IGYB Organisation](https://github.com/IGotYouBoo-Crew)
+[GitHub IGYB README Repository](https://github.com/IGotYouBoo-Crew/T3A2-A)
 
 [Trello Project Management Board](https://trello.com/b/y0rODp16/got-you-boo)
 
@@ -164,6 +164,8 @@ As a long time guest of IGYB, I want to create an account and become a Superstar
 
 **As a guest, I want to create an account so that I can join the IGYB Community.**
 
+<br>
+
 ### SUPERSTARS (general, logged in users):
 
 **Liam McGoldrick, he/him, 17, Newcastle**\
@@ -200,6 +202,7 @@ As a person with mental health challenges, I need to share my journey through po
 
 **As a Superstar, I want to advertise my personally organised events, so that others can join me.**
 
+<br>
 
 ### IGYB CREW (employees and website admins):
 
