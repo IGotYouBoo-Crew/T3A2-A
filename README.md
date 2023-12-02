@@ -285,6 +285,8 @@ Within the 'bulkier' items on our cards, we could add descriptions of what was r
 
 ![Checklist on Trello](<images/Checklist on Trello.png>)
 
+![Other Checklist](<images/Other Checklist.png>)
+
 Using Trello, we also had the option to write comments on any items or cards. However, we found a better option for our group was a Discord server specifically dedicated to the project.
 
 Here, we were able to quickly include links for relevant websites we might use for inspiration, share snapshots and pdfs of our work, and have general conversation to ensure we were all working toward the same goal and on the same page. 
@@ -292,3 +294,4 @@ Here, we were able to quickly include links for relevant websites we might use f
 ![Discord Server](<images/Discord Server.png>)
 
 Additionally, we aimed for three Zoom calls a week (keeping close to class times), which worked similarly to stand ups: sharing our progress, asking advice or suggestions and fostering a great team spirit along the way.
+
