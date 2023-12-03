@@ -255,6 +255,99 @@ As a mentor with the IGYB Crew, I need to be able to comment on posts to provide
 
 https://www.figma.com/file/ygmt0g4Y5Q87a7FHad6Xll/I-Got-You%2C-Boo?type=design&node-id=0-1&mode=design&t=Lo7xa0YPtUxhebEy-0
 
+## Desktop Screen Size:
+![Desktop - Home Page](<images/1.png>)
+
+![Desktop - About Page](<images/2.png>)
+
+![Desktop - Community Page](<images/3.png>)
+
+![Desktop - Forum Page](<images/4.png>)
+
+![Desktop - Create a Post Page](<images/5.png>)
+
+![Desktop - Singular Forum Post](<images/6.png>)
+
+![Desktop - Events Page](<images/7.png>)
+
+![Desktop - Create an Event Page](<images/8.png>)
+
+![Desktop - Singular Event](<images/9.png>)
+
+![Desktop - Contact Page](<images/10.png>)
+
+![Desktop - Log In Page](<images/11.png>)
+
+![Desktop - Sign Up Page](<images/12.png>)
+
+![Desktop - Profile Page](<images/13.png>)
+
+![Desktop - T&Cs Page](<images/14.png>)
+
+![Desktop - Privacy Policy Page](<images/15.png>)
+
+## Mobile Screen Size:
+![Mobile - Home Page](<images/16.png>)
+
+![Mobile - About Page](<images/17.png>)
+
+![Mobile - Community Page](<images/18.png>)
+
+![Mobile - Forum Page](<images/19.png>)
+
+![Mobile - Create a Post Page](<images/20.png>)
+
+![Mobile - Singular Forum Post](<images/21.png>)
+
+![Mobile - Events Page](<images/22.png>)
+
+![Mobile - Create an Event Page](<images/23.png>)
+
+![Mobile - Singular Event](<images/24.png>)
+
+![Mobile - Contact Page](<images/25.png>)
+
+![Mobile - Log In Page](<images/26.png>)
+
+![Mobile - Sign Up Page](<images/27.png>)
+
+![Mobile - Profile Page](<images/28.png>)
+
+![Mobile - T&Cs Page](<images/29.png>)
+
+![Mobile - Privacy Policy Page](<images/30.png>)
+
+## Tablet Screen Size:
+![Tablet - Home Page](<images/31.png>)
+
+![Tablet - About Page](<images/32.png>)
+
+![Tablet - Community Page](<images/33.png>)
+
+![Tablet - Forum Page](<images/34.png>)
+
+![Tablet - Create a Post Page](<images/35.png>)
+
+![Tablet - Singular Forum Post](<images/36.png>)
+
+![Tablet - Events Page](<images/37.png>)
+
+![Tablet - Create an Event Page](<images/38.png>)
+
+![Tablet - Singular Event](<images/39.png>)
+
+![Tablet - Contact Page](<images/40.png>)
+
+![Tablet - Log In Page](<images/41.png>)
+
+![Tablet - Sign Up Page](<images/42.png>)
+
+![Tablet - Profile Page](<images/43.png>)
+
+![Tablet - T&Cs Page](<images/44.png>)
+
+![Tablet - Privacy Policy Page](<images/45.png>)
+
 <br>
 
 <br>
