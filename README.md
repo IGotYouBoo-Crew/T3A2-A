@@ -159,10 +159,15 @@ As a human wanting to learn about the origin of IGYB, I want to access the histo
 **Shaunee Wild, she/her, 33, Walden**\
 As someone who has recently started working with indigenous communities, I want to browse IGYB discussions to gain insights into the experiences and perspectives of marginalised communities without creating an account, so that I can educate myself and better understand the community dynamics.
 
-**James McCathaway, 20, Lorne**\
+**James McCathaway, he/him, 20, Lorne**\
 As a long time guest of IGYB, I want to create an account and become a Superstar, so that I can fully immerse myself within the IGYB community by posting, commenting, and creating events that people in my area might want to join.
 
+**Karen Bennett, she/her, 43, Cranbrook**\
+As a very opinionated woman, I want to be able to contact IGYB directly to ask specific questions and talk over the phone, so that I can ensure this is the right community for me to join.
+
 #### REVISED GUEST USER STORIES
+
+**As a guest, I want to learn about IGYB, so that I can decide if their values align with mine.**
 
 **As a guest, I want to search the forum so that I can decide if IGYB is relevant to me.**
 
@@ -171,6 +176,8 @@ As a long time guest of IGYB, I want to create an account and become a Superstar
 **As a guest, I want to view IGYB events so that I can see if I would be interested in attending.**
 
 **As a guest, I want to create an account so that I can join the IGYB Community.**
+
+**As a guest, I want to contact the IGYB Crew, so that I can ask them questions directly.**
 
 <br>
 
