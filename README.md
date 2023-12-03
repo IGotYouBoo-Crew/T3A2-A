@@ -6,6 +6,8 @@
 
 [Trello Project Management Board](https://trello.com/b/y0rODp16/got-you-boo)
 
+[Dataflow Diagrams](https://app.diagrams.net/#G1EV_tfMlboLjai9heVswIWWG6Jox-3GKY)
+
 [Figma Wireframes](https://www.figma.com/file/ygmt0g4Y5Q87a7FHad6Xll/I-Got-You%2C-Boo?type=design&node-id=0-1&mode=design&t=SttEmwEa2vDQyqSZ-0)
 
 
@@ -117,6 +119,22 @@ This is for logged in users (obviously!) to view the information they gave upon 
 **TERMS & CONDITIONS AND PRIVACY POLICY PAGES**\
 Legal jargon and mumbo jumbo lorem ipsum.
 
+###  TECH STACK
+
+- MongoDB
+- Express
+- Node JS Server
+- React
+
+Additional languages and frameworks:
+- JavaScript
+- HTML
+- CSS
+- Tailwind
+
+Deployment services:
+- Mongo Atlas
+- Heroku
 
 <br>
 
@@ -125,22 +143,32 @@ Legal jargon and mumbo jumbo lorem ipsum.
 # R2: Dataflow Diagram
 [The original diagrams are available here](https://app.diagrams.net/#G1EV_tfMlboLjai9heVswIWWG6Jox-3GKY)
 
-![DFD](<images/DFD_unified.png>)
+![DFD](<docs/DFD_unified.png>)
 This is the overall DFD for the site. Black arrows indicate where data flows across the site, blue arrows indicate state changes within the same page, purple arrows indicate front-end only navigation with no data flow, and red arrows indicate navigation that occurs when a guest attempts an action they are not authorised to perform.
 
 We have also separated this DFD by role (Guest, Superstar, and Admin) to make it clearer to understand the processes available for each. 
+
 ### Guest DFD
-Guests are users of the site who are not yet logged in or do not yet have an account. They can sign up, sign in, or browse the site, but they cannot create, update, or delete posts/comments or events
-![Guest DFD](<images/DFD_guest.png>)
+
+Guests are users of the site who are not yet logged in or do not yet have an account. They can sign up, sign in, or browse the site, but they cannot create, update, or delete posts, comments or events.
+
+![Guest DFD](<docs/DFD_guest.png>)
+
 ### Superstar DFD
-Superstars are the signed-in users of the site. They have the same processes as a guest, as well as the ability to create update and delete their own comments, posts, and events, and also RSVP to events. 
-![Superstar DFD](<images/DFD_superstar.png>)
+
+Superstars are the signed-in general users of the site. They have the same processes as a guest, as well as the ability to create, update and delete their own comments, posts, events, and profile information, and also buy tickets to events that are ticketed. 
+
+![Superstar DFD](<docs/DFD_superstar.png>)
+
 ### Admin DFD
-Admins are Superstars with higher authority, and are responsible for maintaining the site. They have all the processes available to the Superstar, but they can also delete other users accounts, posts, comments, and events. 
-![Admin DFD](<images/DFD_admin.png>)
+
+Admins are IGYB Crew members, who are essentially Superstars with higher authority, and are responsible for maintaining the site. They have all the processes available to Superstars, but they can also delete other users posts, comments, events, as well as accounts.
+
+![Admin DFD](<docs/DFD_admin.png>)
 
 # R3: Application Architecture Diagram
-![AAD](<images/AAD.png>)
+
+![AAD](<docs/AAD.png>)
 
 
 # R4: User Stories
@@ -211,11 +239,26 @@ As a person with mental health challenges, I need to share my journey through po
 
 **As a Superstar, I want to securely log in to my account so that my personal information remains safe.**
 
+**As a Superstar, I want to edit my account, so that I can change my username and pronouns to reflect my identity.**
+
+**As a Superstar, I want to log out of my account, so that others cannot access it if we share a computer.**
+
+**As a Superstar, I want to be able to delete my account, so that I can protect my privacy if it's time for me to move on.**
+
 **As a Superstar, I want to create posts in the forum so that I can ask for advice.**
 
 **As a Superstar, I want to comment on posts so that I can provide support to others.**
 
+**As a Superstar, I want to edit my comments and posts, so that I can correct any typos I made.**
+
+**As a Superstar, I want to delete my comments and posts, so that I can remove things that I regret.**
+
+**As a Superstar, I want to like others' posts and comments, so that I can show my agreement/support.**
+
+**As a Superstar, I want to buy tickets to events, so that I don't miss out.**
+
 **As a Superstar, I want to advertise my personally organised events, so that others can join me.**
+
 
 <br>
 
@@ -244,15 +287,31 @@ As a mentor with the IGYB Crew, I need to be able to comment on posts to provide
 
 #### REVISED IGYB CREW STORIES
 
-**As an IGYB Crew member, I want to create posts in the forum so that I can share my experiences.**
+**As an IGYB Crew admin, I want to securely log in to my account to access my permissions within IGYB.**
 
-**As an IGYB Crew member, I want to comment on posts so that I can provide advice and answer questions.**
+**As an IGYB Crew admin, I want to edit my account, so that I can change my information if it is updated.**
 
-**As an IGYB Crew member, I want to create IGYB events, so that people can connect in real life.**
+**As an IGYB Crew admin, I want to log out of my account, so that others cannot access it if we share a computer.**
 
-**As an IGYB Crew member, I want to delete inappropriate posts, comments and events, so that IGYB remains a safe and respectful community.**
+**As an IGYB Crew admin, I want to be able to delete my account, so that I can step down from an admin role if I move on.**
 
-**As an IGYB Crew member, I want to delete offensive Superstars' accounts, so that IGYB remains a safe and respectful community.**
+**As an IGYB Crew admin, I want to create posts in the forum so that I can share my experiences.**
+
+**As an IGYB Crew admin, I want to comment on posts so that I can provide advice and answer questions.**
+
+**As an IGYB Crew admin, I want to be able to edit posts and comments I've made so that I can correct/change something if necessary.**
+
+**As an IGYB Crew admin, I want to create IGYB events, so that people can connect in real life.**
+
+**As an IGYB Crew admin, I want to edit IGYB events, so that updates in information can be correctly reflected.**
+
+**As an IGYB Crew admin, I want to view posts, comments and events to follow the community and moderate accordingly.**
+
+**As an IGYB Crew admin, I want to delete inappropriate posts, comments and events, so that IGYB remains a safe and respectful community.**
+
+**As an IGYB Crew admin, I want to delete offensive Superstars' accounts, so that IGYB remains a safe and respectful community.**
+
+**As an IGYB Crew admin, I want to delete IGYB Crew admin accounts, so that no previous employees continue to have access to admin permissions.**
 
 <br>
 
@@ -263,97 +322,97 @@ As a mentor with the IGYB Crew, I need to be able to comment on posts to provide
 https://www.figma.com/file/ygmt0g4Y5Q87a7FHad6Xll/I-Got-You%2C-Boo?type=design&node-id=0-1&mode=design&t=Lo7xa0YPtUxhebEy-0
 
 ## Desktop Screen Size:
-![Desktop - Home Page](<images/1.png>)
+![Desktop - Home Page](<docs/1.png>)
 
-![Desktop - About Page](<images/2.png>)
+![Desktop - About Page](<docs/2.png>)
 
-![Desktop - Community Page](<images/3.png>)
+![Desktop - Community Page](<docs/3.png>)
 
-![Desktop - Forum Page](<images/4.png>)
+![Desktop - Forum Page](<docs/4.png>)
 
-![Desktop - Create a Post Page](<images/5.png>)
+![Desktop - Create a Post Page](<docs/5.png>)
 
-![Desktop - Singular Forum Post](<images/6.png>)
+![Desktop - Singular Forum Post](<docs/6.png>)
 
-![Desktop - Events Page](<images/7.png>)
+![Desktop - Events Page](<docs/7.png>)
 
-![Desktop - Create an Event Page](<images/8.png>)
+![Desktop - Create an Event Page](<docs/8.png>)
 
-![Desktop - Singular Event](<images/9.png>)
+![Desktop - Singular Event](<docs/9.png>)
 
-![Desktop - Contact Page](<images/10.png>)
+![Desktop - Contact Page](<docs/10.png>)
 
-![Desktop - Log In Page](<images/11.png>)
+![Desktop - Log In Page](<docs/11.png>)
 
-![Desktop - Sign Up Page](<images/12.png>)
+![Desktop - Sign Up Page](<docs/12.png>)
 
-![Desktop - Profile Page](<images/13.png>)
+![Desktop - Profile Page](<docs/13.png>)
 
-![Desktop - T&Cs Page](<images/14.png>)
+![Desktop - T&Cs Page](<docs/14.png>)
 
-![Desktop - Privacy Policy Page](<images/15.png>)
+![Desktop - Privacy Policy Page](<docs/15.png>)
 
 ## Mobile Screen Size:
-![Mobile - Home Page](<images/16.png>)
+![Mobile - Home Page](<docs/16.png>)
 
-![Mobile - About Page](<images/17.png>)
+![Mobile - About Page](<docs/17.png>)
 
-![Mobile - Community Page](<images/18.png>)
+![Mobile - Community Page](<docs/18.png>)
 
-![Mobile - Forum Page](<images/19.png>)
+![Mobile - Forum Page](<docs/19.png>)
 
-![Mobile - Create a Post Page](<images/20.png>)
+![Mobile - Create a Post Page](<docs/20.png>)
 
-![Mobile - Singular Forum Post](<images/21.png>)
+![Mobile - Singular Forum Post](<docs/21.png>)
 
-![Mobile - Events Page](<images/22.png>)
+![Mobile - Events Page](<docs/22.png>)
 
-![Mobile - Create an Event Page](<images/23.png>)
+![Mobile - Create an Event Page](<docs/23.png>)
 
-![Mobile - Singular Event](<images/24.png>)
+![Mobile - Singular Event](<docs/24.png>)
 
-![Mobile - Contact Page](<images/25.png>)
+![Mobile - Contact Page](<docs/25.png>)
 
-![Mobile - Log In Page](<images/26.png>)
+![Mobile - Log In Page](<docs/26.png>)
 
-![Mobile - Sign Up Page](<images/27.png>)
+![Mobile - Sign Up Page](<docs/27.png>)
 
-![Mobile - Profile Page](<images/28.png>)
+![Mobile - Profile Page](<docs/28.png>)
 
-![Mobile - T&Cs Page](<images/29.png>)
+![Mobile - T&Cs Page](<docs/29.png>)
 
-![Mobile - Privacy Policy Page](<images/30.png>)
+![Mobile - Privacy Policy Page](<docs/30.png>)
 
 ## Tablet Screen Size:
-![Tablet - Home Page](<images/31.png>)
+![Tablet - Home Page](<docs/31.png>)
 
-![Tablet - About Page](<images/32.png>)
+![Tablet - About Page](<docs/32.png>)
 
-![Tablet - Community Page](<images/33.png>)
+![Tablet - Community Page](<docs/33.png>)
 
-![Tablet - Forum Page](<images/34.png>)
+![Tablet - Forum Page](<docs/34.png>)
 
-![Tablet - Create a Post Page](<images/35.png>)
+![Tablet - Create a Post Page](<docs/35.png>)
 
-![Tablet - Singular Forum Post](<images/36.png>)
+![Tablet - Singular Forum Post](<docs/36.png>)
 
-![Tablet - Events Page](<images/37.png>)
+![Tablet - Events Page](<docs/37.png>)
 
-![Tablet - Create an Event Page](<images/38.png>)
+![Tablet - Create an Event Page](<docs/38.png>)
 
-![Tablet - Singular Event](<images/39.png>)
+![Tablet - Singular Event](<docs/39.png>)
 
-![Tablet - Contact Page](<images/40.png>)
+![Tablet - Contact Page](<docs/40.png>)
 
-![Tablet - Log In Page](<images/41.png>)
+![Tablet - Log In Page](<docs/41.png>)
 
-![Tablet - Sign Up Page](<images/42.png>)
+![Tablet - Sign Up Page](<docs/42.png>)
 
-![Tablet - Profile Page](<images/43.png>)
+![Tablet - Profile Page](<docs/43.png>)
 
-![Tablet - T&Cs Page](<images/44.png>)
+![Tablet - T&Cs Page](<docs/44.png>)
 
-![Tablet - Privacy Policy Page](<images/45.png>)
+![Tablet - Privacy Policy Page](<docs/45.png>)
 
 <br>
 
@@ -381,25 +440,25 @@ We agreed that organising the Trello board into a few specific cards with colour
 - **Planning**
 - **In Progress**
 
-![Initial Trello](<images/Initial Trello.png>)
+![Initial Trello](<docs/Initial Trello.png>)
 
 Moving a few items to the **Done!** card right at the beginning gave us all a quick sense of achievement and helped give some momentum to the project.
 
 *Note:* Naomi did create a 'Done!' label for a hot minute, but quickly realised this was redundant (beyond adding another colour to the mix for the fun of it) because the Trello board already included a 'Done!' card 🥴
 
-![First Progress Shot](<images/First Progress Shot.png>)
+![First Progress Shot](<docs/First Progress Shot.png>)
 
 Within the 'bulkier' items on our cards, we could add descriptions of what was required, as well as due dates and checklists. Admittedly, with us all chipping away at our own corners of the project, updating this was not always up to speed - even if our actual work was!
 
-![Checklist on Trello](<images/Checklist on Trello.png>)
+![Checklist on Trello](<docs/Checklist on Trello.png>)
 
-![Other Checklist](<images/Other Checklist.png>)
+![Other Checklist](<docs/Other Checklist.png>)
 
 Using Trello, we also had the option to write comments on any items or cards. However, we found a better option for our group was a Discord server specifically dedicated to the project.
 
 Here, we were able to quickly include links for relevant websites we might use for inspiration, share snapshots and pdfs of our work, and have general conversation to ensure we were all working toward the same goal and on the same page. 
 
-![Discord Server](<images/Discord Server.png>)
+![Discord Server](<docs/Discord Server.png>)
 
 Additionally, we aimed for three Zoom calls a week (keeping close to class times), which worked similarly to stand ups: sharing our progress, asking advice or suggestions and fostering a great team spirit along the way.
 
