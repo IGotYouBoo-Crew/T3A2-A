@@ -120,23 +120,20 @@ This is for logged in users (obviously!) to view the information they gave upon 
 Legal jargon and mumbo jumbo lorem ipsum.
 
 ###  TECH STACK
-
+IGYB will be a full stack application, developed using the MERN stack:
 - MongoDB
 - Express
-- Node JS Server
 - React
+- Node JS Server
 
-Additional languages and frameworks:
-- JavaScript
-- HTML
-- CSS
-- Tailwind
+We are also using the Tailwind CSS framework for styling, and Mongoose ODM to help manage the database.
 
-Deployment and third party services:
-- Mongo Atlas
-- Heroku
-- Netlify
-- Amazon S3
+These frameworks are designed for use with the languages JavaScript, HTML, and CSS.
+
+For deployment, we will use:
+- Mongo Atlas for database hosting
+- Heroku to deploy the back end, and
+- Netlify to deploy the front end
 
 <br>
 
@@ -171,6 +168,7 @@ Admins are IGYB Crew members, who are essentially Superstars with higher authori
 # R3: Application Architecture Diagram
 
 ![AAD](<docs/AAD.png>)
+The AAD outlines the languages, frameworks, and tools we plan to use in the development of IGYB.
 
 
 # R4: User Stories
