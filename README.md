@@ -123,17 +123,25 @@ Legal jargon and mumbo jumbo lorem ipsum.
 <br>
 
 # R2: Dataflow Diagram
-https://app.diagrams.net/#G1EV_tfMlboLjai9heVswIWWG6Jox-3GKY
+[The original diagrams are available here](https://app.diagrams.net/#G1EV_tfMlboLjai9heVswIWWG6Jox-3GKY)
 
-<br>
+![DFD](<images/DFD_unified.png>)
+This is the overall DFD for the site. Black arrows indicate where data flows across the site, blue arrows indicate state changes within the same page, purple arrows indicate front-end only navigation with no data flow, and red arrows indicate navigation that occurs when a guest attempts an action they are not authorised to perform.
 
-<br>
+We have also separated this DFD by role (Guest, Superstar, and Admin) to make it clearer to understand the processes available for each. 
+### Guest DFD
+Guests are users of the site who are not yet logged in or do not yet have an account. They can sign up, sign in, or browse the site, but they cannot create, update, or delete posts/comments or events
+![Guest DFD](<images/DFD_guest.png>)
+### Superstar DFD
+Superstars are the signed-in users of the site. They have the same processes as a guest, as well as the ability to create update and delete their own comments, posts, and events, and also RSVP to events. 
+![Superstar DFD](<images/DFD_superstar.png>)
+### Admin DFD
+Admins are Superstars with higher authority, and are responsible for maintaining the site. They have all the processes available to the Superstar, but they can also delete other users accounts, posts, comments, and events. 
+![Admin DFD](<images/DFD_admin.png>)
 
 # R3: Application Architecture Diagram
+![AAD](<images/AAD.png>)
 
-<br>
-
-<br>
 
 # R4: User Stories
 
