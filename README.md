@@ -132,9 +132,11 @@ Additional languages and frameworks:
 - CSS
 - Tailwind
 
-Deployment services:
+Deployment and third party services:
 - Mongo Atlas
 - Heroku
+- Netlify
+- Amazon S3
 
 <br>
 
