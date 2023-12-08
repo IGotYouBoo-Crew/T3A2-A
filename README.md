@@ -10,6 +10,10 @@
 
 [Figma Wireframes](https://www.figma.com/file/ygmt0g4Y5Q87a7FHad6Xll/I-Got-You%2C-Boo?type=design&node-id=0-1&mode=design&t=SttEmwEa2vDQyqSZ-0)
 
+[Frontend Repo](https://github.com/IGotYouBoo-Crew/igyb-front-end)
+
+[Backend Repo](https://github.com/IGotYouBoo-Crew/igyb-back-end)
+
 
 ## Questions quick links:
 
